@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Hello</h2>
+
+<p>Hello from Kelly. Welcome to the razor view. </p>
+<p>If you want a warmer welcome - go to the welcome page:</p>
+<form asp-action="Welcome">
+    <div class="form-group">
+        <label class="col-form-label">Name: </label><input name="firstName" />
+        <br />
+        <label>Number of Times: </label><input name="numTimes" />
+        <br />
+        <button type="submit" class="btn btn-success">Welcome Me</button>
+    </div>
+</form>
